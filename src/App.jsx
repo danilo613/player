@@ -122,7 +122,6 @@ function DemoScoreCard({ demo, open, onToggle }) {
 
           <div style={{ padding: "0 20px 20px" }}>
             <div style={{ fontSize: 10.5, color: "#9a7a4a", background: "rgba(245,166,35,0.1)", borderLeft: "3px solid #f5a623", padding: "8px 10px", borderRadius: 6, lineHeight: 1.6 }}>
-              🎼 体験版では「{SCORE_ID_TO_NAME[demo.scoreId]}」のみお試しいただけます。<br/>
               グーダドラム／譜面プレイヤーのご購入はこちら → <a href="https://www.gudadrumjapan.com/product-page/player" style={{ color: C.moss }}>gudadrumjapan.com</a>
             </div>
           </div>
@@ -147,24 +146,28 @@ export default function App() {
         <div style={{ textAlign: "center", marginBottom: 24 }}>
           <div style={{ fontSize: 40, marginBottom: 6, filter: "drop-shadow(0 0 12px rgba(255,255,255,0.95))" }}>🌿</div>
           <div style={{ fontFamily: "'Noto Serif JP',serif", fontSize: 20, fontWeight: 700, letterSpacing: "0.1em", color: C.choco, textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 40px rgba(255,255,255,0.7)" }}>GUDADRUM ORCHESTRA</div>
-          <div style={{ display: "inline-block", fontSize: 15, fontWeight: 700, color: C.moss, letterSpacing: "0.14em", marginTop: 8, padding: "6px 18px", background: "rgba(255,255,255,0.9)", border: "2px solid #fff", borderRadius: 20, boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>譜面プレイヤー体験版</div>
+          <div style={{ display: "inline-block", fontSize: 19, fontWeight: 700, color: C.moss, letterSpacing: "0.14em", marginTop: 8, padding: "8px 22px", background: "rgba(255,255,255,0.9)", border: "2px solid #fff", borderRadius: 20, boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>譜面プレイヤー体験版</div>
           <div style={{ fontSize: 14, color: "#5a4a34", marginTop: 14, lineHeight: 1.9, background: "rgba(255,255,255,0.75)", borderRadius: 10, padding: "14px 16px" }}>
-            グーダドラムの世界を、ここで少しだけ体験できます。<br/>
-            3曲、それぞれ異なる「音階」を使った譜面プレイヤーをお試しいただけます。<br/>
-            <span style={{ display: "block", marginTop: 10, fontSize: 12, color: "#8a7a5a" }}>
-              譜面プレイヤーを使用するには、グーダドラムオーケストラ専用のポータルサイトを開設する必要があります（無料）。<br/>
+            グーダドラムの世界を、<br/>
+            ここで少しだけ体験できます。<br/>
+            3曲、それぞれ異なる「音階」を使った<br/>
+            譜面プレイヤーをお試しいただけます。<br/>
+            <span style={{ display: "block", marginTop: 10, fontSize: 13, color: "#4b3a28", fontWeight: 600 }}>
+              譜面プレイヤーを使用するには、<br/>
+              グーダドラムオーケストラ専用のポータルサイトを<br/>
+              開設する必要があります（無料）。<br/>
               詳しくは <a href="https://www.gudadrumjapan.com/cmmnt" target="_blank" rel="noreferrer" style={{ color: C.moss, fontWeight: 700 }}>こちら</a>
             </span>
             <div style={{ marginTop: 16, paddingTop: 14, borderTop: "1px solid rgba(0,0,0,0.08)", textAlign: "left" }}>
               <p style={{ fontSize: 13, fontWeight: 700, color: C.choco, marginBottom: 8 }}>【購入可能な楽曲の譜面（それぞれの音階）】</p>
-              <ul style={{ margin: 0, paddingLeft: 18, fontSize: 12, color: "#5a4a34", lineHeight: 2 }}>
-                <li>🆕⭐️蒼〜aoi〜（響ノ音 or 秘ノ音：旧アーケインorエニグマ）</li>
-                <li>⭐️iridescence （響ノ音 or 秘ノ音：旧アーケインorエニグマ）</li>
-                <li>⭐️dreamy EYES（風ノ音：旧トーナス）</li>
-                <li>⭐️めぐみの空（響ノ音＆風ノ音：旧アーケイン＆トーナス）</li>
-                <li>⭐️Re:Grace（風ノ音＆響ノ音：旧アーケイン＆トーナス）</li>
-                <li>⭐️water lily（風ノ音：旧トーナス）</li>
-                <li>⭐️holy child（光ノ音：旧イークィノックス）</li>
+              <ul style={{ margin: 0, paddingLeft: 18, fontSize: 12, color: "#5a4a34", lineHeight: 1.7 }}>
+                <li>⭐️蒼〜aoi〜<br/>　（響ノ音 or 秘ノ音：旧アーケインorエニグマ）</li>
+                <li>⭐️iridescence<br/>　（響ノ音 or 秘ノ音：旧アーケインorエニグマ）</li>
+                <li>⭐️dreamy EYES<br/>　（風ノ音：旧トーナス）</li>
+                <li>⭐️めぐみの空<br/>　（響ノ音＆風ノ音：旧アーケイン＆トーナス）</li>
+                <li>⭐️Re:Grace<br/>　（風ノ音＆響ノ音：旧アーケイン＆トーナス）</li>
+                <li>⭐️water lily<br/>　（風ノ音：旧トーナス）</li>
+                <li>⭐️holy child<br/>　（光ノ音：旧イークィノックス）</li>
               </ul>
               <p style={{ fontSize: 12, marginTop: 12, marginBottom: 4 }}>
                 🔻譜面の購入はこちら🔻<br/>
