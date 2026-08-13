@@ -12,7 +12,7 @@ const PORTAL_API = "https://gudadrum-portal.vercel.app/api/gas";
 const DEMO_SONGS = [
   { scoreId: "iridescence", section: "amelo", sectionLabel: "Aメロ", scale: "enigma", scaleLabel: "秘ノ音（enigma）", altScale: "arcane", altScaleLabel: "響ノ音（arcane）" },
   { scoreId: "dreamy",      section: "intro", sectionLabel: "イントロ", scale: "default", scaleLabel: "風ノ音（tonus）" },
-  { scoreId: "holychild",   section: "intro", sectionLabel: "イントロ", scale: "equinox", scaleLabel: "光ノ音（equinox）" },
+  { scoreId: "holychild",   section: "intro", sectionLabel: "イントロ", scale: "nostalgic", scaleLabel: "光ノ音（equinox）" },
 ];
 
 function DemoScoreCard({ demo, open, onToggle }) {
